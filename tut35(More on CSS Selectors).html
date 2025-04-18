@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS Selectors</title>
+    <style>
+        /*.box:first-child{
+            background-color: aqua;
+        }
+        .box::first-line{
+            color: red;
+        }
+        .boxes *{
+            color: maroon;
+            border: 2px solid blue;
+        }
+        p,a,.box,[data-color="primary"]{   /*attribute selector
+            margin-top: 45px;
+        }
+        .box:nth-child(odd){
+            background-color: aqua;
+        }*/
+        .box:nth-last-child(2){
+            background-color: lightcoral;
+        }
+        .boxes::before{
+            content: "I am good";
+        }
+        .boxes::after{
+            content: "Web development going on.";
+        }
+        ::selection{
+            background-color: black;
+            color: rgb(15, 252, 252);
+        }
+        .box::first-letter{
+            color: peru;
+            font-size: 20px;
+        }
+        input::placeholder{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div data-color="primary" class="box">Hey,I am a box.</div>
+        <div class="box">Hey,I am a box.</div>
+        <div class="box">Hey,I am a box.</div>
+        <input type="text" placeholder="Type your name here">
+    </div>
+</body>
+</html>
