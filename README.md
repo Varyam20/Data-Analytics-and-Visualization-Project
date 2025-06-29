@@ -44,3 +44,10 @@ An interactive *Streamlit dashboard* that merges agricultural intelligence with 
 
 ---
 
+# 🌾 Crop Recommendation Dashboard
+
+🚀 **Live Dashboard**: [Click here to view](https://data-analytics-and-visualization-project-evbjuxecgrehszhs4ucka.streamlit.app/)
+
+This dashboard provides interactive visualizations and crop prediction results based on input parameters using a trained Random Forest model.
+
+
