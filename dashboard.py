@@ -1,4 +1,8 @@
 # Crop Recommendation Dashboard in Streamlit
+import os
+os.environ["WATCHDOG_USE_POLLING"] = "true"
+
+
 import streamlit as st
 import pandas as pd
 import os
